@@ -1,0 +1,441 @@
+{
+  "Analisi 2": {
+    "groups": {
+      "Generale": [
+        {
+          "type": "flashcard",
+          "q": "Cosa si intende per 'Integrale Generale'?",
+          "a": "L'insieme di tutte le possibili soluzioni di un'equazione differenziale, dipendente da n costanti arbitrarie."
+        },
+        {
+          "type": "flashcard",
+          "q": "Equazione I ordine: Soluzione di y' + a(t)y = f(t)",
+          "a": "y(t) = exp(-A(t)) * [∫ f(t)exp(A(t)) dt + C], dove A(t) è una primitiva di a(t)."
+        },
+        {
+          "type": "flashcard",
+          "q": "Come si gestiscono le soluzioni stazionarie nelle ODE a variabili separabili?",
+          "a": "Si annulla h(y). Se h(y*)=0, allora y(t)=y* è una soluzione costante."
+        },
+        {
+          "type": "quiz",
+          "q": "Se il termine noto f(t) = t^2 + 1, che forma ha la soluzione particolare y*(t)?",
+          "options": [
+            {
+              "text": "At^2 + Bt + C",
+              "isCorrect": true
+            },
+            {
+              "text": "At^2 + C",
+              "isCorrect": false
+            },
+            {
+              "text": "A * e^t",
+              "isCorrect": false
+            },
+            {
+              "text": "A sin(t)",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "q": "ODE II Ordine: Polinomio caratteristico con radici reali coincidenti (λ1 = λ2)",
+          "a": "y(t) = c1 e^(λt) + c2 t e^(λt)"
+        },
+        {
+          "type": "flashcard",
+          "q": "Metodo di Lagrange (Variazione delle costanti)",
+          "a": "Si cercano funzioni c1(t) e c2(t) tali che y(t) = c1(t)y1(t) + c2(t)y2(t) soddisfi l'equazione non omogenea."
+        },
+        {
+          "type": "quiz",
+          "q": "Se λ = ±iα sono radici del polinomio, la soluzione omogenea contiene:",
+          "options": [
+            {
+              "text": "Seni e Coseni",
+              "isCorrect": true
+            },
+            {
+              "text": "Solo esponenziali reali",
+              "isCorrect": false
+            },
+            {
+              "text": "Logaritmi",
+              "isCorrect": false
+            },
+            {
+              "text": "Polinomi semplici",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "q": "Cosa si intende per 'Integrale Generale'?",
+          "a": "L'insieme di tutte le possibili soluzioni di un'equazione differenziale, dipendente da n costanti arbitrarie."
+        },
+        {
+          "type": "flashcard",
+          "q": "Equazione I ordine: Soluzione di y' + a(t)y = f(t)",
+          "a": "y(t) = exp(-A(t)) * [∫ f(t)exp(A(t)) dt + C], dove A(t) è una primitiva di a(t)."
+        },
+        {
+          "type": "flashcard",
+          "q": "Come si gestiscono le soluzioni stazionarie nelle ODE a variabili separabili?",
+          "a": "Si annulla h(y). Se h(y*)=0, allora y(t)=y* è una soluzione costante."
+        },
+        {
+          "type": "quiz",
+          "q": "Se il termine noto f(t) = t^2 + 1, che forma ha la soluzione particolare y*(t)?",
+          "options": [
+            {
+              "text": "At^2 + Bt + C",
+              "isCorrect": true
+            },
+            {
+              "text": "At^2 + C",
+              "isCorrect": false
+            },
+            {
+              "text": "A * e^t",
+              "isCorrect": false
+            },
+            {
+              "text": "A sin(t)",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "q": "ODE II Ordine: Polinomio caratteristico con radici reali coincidenti (λ1 = λ2)",
+          "a": "y(t) = c1 e^(λt) + c2 t e^(λt)"
+        },
+        {
+          "type": "flashcard",
+          "q": "Metodo di Lagrange (Variazione delle costanti)",
+          "a": "Si cercano funzioni c1(t) e c2(t) tali che y(t) = c1(t)y1(t) + c2(t)y2(t) soddisfi l'equazione non omogenea."
+        },
+        {
+          "type": "quiz",
+          "q": "Se λ = ±iα sono radici del polinomio, la soluzione omogenea contiene:",
+          "options": [
+            {
+              "text": "Seni e Coseni",
+              "isCorrect": true
+            },
+            {
+              "text": "Solo esponenziali reali",
+              "isCorrect": false
+            },
+            {
+              "text": "Logaritmi",
+              "isCorrect": false
+            },
+            {
+              "text": "Polinomi semplici",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "q": "Teorema della Dimensione (Rango-Nullità)",
+          "a": "dim(V) = dim(Ker L) + dim(Im L)"
+        },
+        {
+          "type": "flashcard",
+          "q": "Cosa definisce una Matrice Definita Positiva?",
+          "a": "Tutti i suoi autovalori sono strettamente positivi (>0) o tutti i minori di Nord-Ovest hanno det > 0."
+        },
+        {
+          "type": "flashcard",
+          "q": "Proprietà della Matrice Inversa",
+          "a": "Esiste solo se det(A) ≠ 0. Si calcola come (1/det A) * (Matrice dei complementi algebrici)^T."
+        },
+        {
+          "type": "quiz",
+          "q": "Il determinante di una matrice con due righe uguali è:",
+          "options": [
+            {
+              "text": "Sempre 0",
+              "isCorrect": true
+            },
+            {
+              "text": "Sempre 1",
+              "isCorrect": false
+            },
+            {
+              "text": "Pari alla somma della diagonale",
+              "isCorrect": false
+            },
+            {
+              "text": "Non calcolabile",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "type": "flashcard",
+          "q": "Cos'è un Autovettore?",
+          "a": "Un vettore non nullo v tale che A*v = λ*v, dove λ è l'autovalore corrispondente."
+        },
+        {
+          "type": "flashcard",
+          "q": "Molteplicità Algebrica vs Geometrica",
+          "a": "Algebrica: quante volte λ è radice del polinomio. Geometrica: dimensione dell'autospazio Ker(A - λI)."
+        }
+      ],
+      "Spazi Vettoriali": [
+        {
+          "group": "Spazi Vettoriali",
+          "type": "flashcard",
+          "q": "Definizione di Sottospazio Vettoriale",
+          "a": "Un sottoinsieme W di V tale che: 1) lo zero di V appartiene a W; 2) è chiuso rispetto alla somma; 3) è chiuso rispetto al prodotto per scalare."
+        },
+        {
+          "group": "Spazi Vettoriali",
+          "type": "quiz",
+          "q": "Cosa indica la dimensione di uno spazio vettoriale?",
+          "options": [
+            {
+              "text": "Il numero di vettori in una sua base",
+              "isCorrect": true
+            },
+            {
+              "text": "Il numero totale di vettori nello spazio",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "group": "Spazi Vettoriali",
+          "type": "flashcard",
+          "q": "Definizione di Sottospazio Vettoriale",
+          "a": "Un sottoinsieme W di V tale che: 1) lo zero di V appartiene a W; 2) è chiuso rispetto alla somma; 3) è chiuso rispetto al prodotto per scalare.",
+          "enabled": true
+        },
+        {
+          "group": "Spazi Vettoriali",
+          "type": "quiz",
+          "q": "Cosa indica la dimensione di uno spazio vettoriale?",
+          "options": [
+            {
+              "text": "Il numero di vettori in una sua base",
+              "isCorrect": true
+            },
+            {
+              "text": "Il numero totale di vettori nello spazio",
+              "isCorrect": false
+            }
+          ],
+          "enabled": true
+        }
+      ],
+      "Matrici & Determinanti": [
+        {
+          "group": "Matrici & Determinanti",
+          "type": "flashcard",
+          "q": "Metodo di Laplace",
+          "a": "Sviluppo del determinante lungo una riga o colonna tramite i complementi algebrici."
+        },
+        {
+          "group": "Matrici & Determinanti",
+          "type": "flashcard",
+          "q": "Minore di Nord-Ovest (Ordine k)",
+          "a": "Determinante della sottomatrice quadrata formata dalle prime k righe e k colonne."
+        },
+        {
+          "group": "Matrici & Determinanti",
+          "type": "quiz",
+          "q": "Se una matrice ha determinante nullo, allora:",
+          "options": [
+            {
+              "text": "Non è invertibile",
+              "isCorrect": true
+            },
+            {
+              "text": "È la matrice identità",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "group": "Matrici & Determinanti",
+          "type": "flashcard",
+          "q": "Metodo di Laplace",
+          "a": "Sviluppo del determinante lungo una riga o colonna tramite i complementi algebrici.",
+          "enabled": true
+        },
+        {
+          "group": "Matrici & Determinanti",
+          "type": "flashcard",
+          "q": "Minore di Nord-Ovest (Ordine k)",
+          "a": "Determinante della sottomatrice quadrata formata dalle prime k righe e k colonne.",
+          "enabled": true
+        },
+        {
+          "group": "Matrici & Determinanti",
+          "type": "quiz",
+          "q": "Se una matrice ha determinante nullo, allora:",
+          "options": [
+            {
+              "text": "Non è invertibile",
+              "isCorrect": true
+            },
+            {
+              "text": "È la matrice identità",
+              "isCorrect": false
+            }
+          ],
+          "enabled": true
+        }
+      ],
+      "Diagonalizzazione": [
+        {
+          "group": "Diagonalizzazione",
+          "type": "flashcard",
+          "q": "Teorema Spettrale",
+          "a": "Una matrice reale è ortogonalmente diagonalizzabile se e solo se è simmetrica."
+        },
+        {
+          "group": "Diagonalizzazione",
+          "type": "flashcard",
+          "q": "Molteplicità Algebrica",
+          "a": "Quante volte un autovalore λ compare come radice del polinomio caratteristico."
+        },
+        {
+          "group": "Diagonalizzazione",
+          "type": "flashcard",
+          "q": "Teorema Spettrale",
+          "a": "Una matrice reale è ortogonalmente diagonalizzabile se e solo se è simmetrica.",
+          "enabled": true
+        },
+        {
+          "group": "Diagonalizzazione",
+          "type": "flashcard",
+          "q": "Molteplicità Algebrica",
+          "a": "Quante volte un autovalore λ compare come radice del polinomio caratteristico.",
+          "enabled": true
+        }
+      ],
+      "ODE I Ordine": [
+        {
+          "group": "ODE I Ordine",
+          "type": "flashcard",
+          "q": "Equazione a variabili separabili: y' = g(t)h(y)",
+          "a": "Metodo: ∫ 1/h(y) dy = ∫ g(t) dt. Cercare prima le soluzioni stazionarie h(y)=0."
+        },
+        {
+          "group": "ODE I Ordine",
+          "type": "quiz",
+          "q": "Il Teorema di Cauchy garantisce l'unicità se f(t,y) è:",
+          "options": [
+            {
+              "text": "Localmente Lipschitziana rispetto a y",
+              "isCorrect": true
+            },
+            {
+              "text": "Solo continua",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "group": "ODE I Ordine",
+          "type": "flashcard",
+          "q": "Equazione a variabili separabili: y' = g(t)h(y)",
+          "a": "Metodo: ∫ 1/h(y) dy = ∫ g(t) dt. Cercare prima le soluzioni stazionarie h(y)=0.",
+          "enabled": true
+        },
+        {
+          "group": "ODE I Ordine",
+          "type": "quiz",
+          "q": "Il Teorema di Cauchy garantisce l'unicità se f(t,y) è:",
+          "options": [
+            {
+              "text": "Localmente Lipschitziana rispetto a y",
+              "isCorrect": true
+            },
+            {
+              "text": "Solo continua",
+              "isCorrect": false
+            }
+          ],
+          "enabled": true
+        }
+      ],
+      "ODE II Ordine": [
+        {
+          "group": "ODE II Ordine",
+          "type": "flashcard",
+          "q": "Caso Δ < 0 (Radici α ± iβ)",
+          "a": "y(t) = e^(αt) * [c1 cos(βt) + c2 sin(βt)]"
+        },
+        {
+          "group": "ODE II Ordine",
+          "type": "flashcard",
+          "q": "Metodo di somiglianza: se f(t) è un polinomio di grado n",
+          "a": "La soluzione particolare y*(t) è un polinomio di grado n (se 0 non è radice del polinomio caratteristico)."
+        },
+        {
+          "group": "ODE II Ordine",
+          "type": "quiz",
+          "q": "Se λ = -3 è radice semplice, f(t) = 14e^-3t richiede y*(t) nella forma:",
+          "options": [
+            {
+              "text": "A * t * e^-3t",
+              "isCorrect": true
+            },
+            {
+              "text": "A * e^-3t",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "group": "ODE II Ordine",
+          "type": "flashcard",
+          "q": "Caso Δ < 0 (Radici α ± iβ)",
+          "a": "y(t) = e^(αt) * [c1 cos(βt) + c2 sin(βt)]",
+          "enabled": true
+        },
+        {
+          "group": "ODE II Ordine",
+          "type": "flashcard",
+          "q": "Metodo di somiglianza: se f(t) è un polinomio di grado n",
+          "a": "La soluzione particolare y*(t) è un polinomio di grado n (se 0 non è radice del polinomio caratteristico).",
+          "enabled": true
+        },
+        {
+          "group": "ODE II Ordine",
+          "type": "quiz",
+          "q": "Se λ = -3 è radice semplice, f(t) = 14e^-3t richiede y*(t) nella forma:",
+          "options": [
+            {
+              "text": "A * t * e^-3t",
+              "isCorrect": true
+            },
+            {
+              "text": "A * e^-3t",
+              "isCorrect": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    }
+  },
+  "Fisica Sperimentale": {
+    "groups": {
+      "Generale": []
+    }
+  },
+  "Ingegneria Aerospaziale": {
+    "groups": {
+      "Generale": []
+    }
+  }
+}
